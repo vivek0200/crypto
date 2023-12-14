@@ -12,7 +12,7 @@ import {
     Tabs,
     Text,
   } from "@chakra-ui/react";
-  import { CustomCard } from "../../../chakra/CustomCard";
+   import { CustomCard } from "../../../chakra/CustomCard";
   import { BsArrowUpRight } from "react-icons/bs";
   import { AiFillPlusCircle, AiOutlineMinusCircle } from "react-icons/ai";
   
@@ -73,7 +73,7 @@ import {
           </Flex>
           <TabPanels>
             <TabPanel>
-              <Image w="100%" src="/graph.svg" mt="3rem" />
+              <Image w="100%" src="/Graph.svg" mt="3rem" />
               <HStack justify="space-between">
                 {timestamps.map((timestamp) => (
                   <Text key={timestamp} fontSize="sm" color="black.80">
